@@ -57,5 +57,13 @@
 > Command2:
 > ```bash
 > azureuser@myVM:~$ sudo apt-get install azure-cli
+> ```
 > Output:<br>
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_7.png "1_7")<br>
+6. If you successful to install the Azure CLI, you can run command to check version.  
+> Command:
+> ```bash 
+> azureuser@myVM:~$ az --version
+> ```
+> Output:<br>
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_8.png "1_8")<br>
