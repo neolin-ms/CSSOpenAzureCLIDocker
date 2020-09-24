@@ -8,7 +8,7 @@
 
 1. Using SSh to login Ubuntu Linux.
 > Command:<br>
-> ```sh
+> ```bash
 > neolin@tw-hslin-207a:~/CSSOpenWSL2$ ssh azureuser@104.214.xxx.xxx
 > ```
 > Output:<br>
