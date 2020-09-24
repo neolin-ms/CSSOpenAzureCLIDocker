@@ -32,9 +32,18 @@
 3. Download and install the Microsoft signing key.
 > Command: 
 > ```bash
-> curl -sL https://packages.microsoft.com/keys/microsoft.asc |
+> azureuser@myVM:~$ curl -sL https://packages.microsoft.com/keys/microsoft.asc |
 >    gpg --dearmor |
 >    sudo tee /etc/apt/trusted.gpg.d/microsoft.gpg > /dev/null 
 > ```
 > Output:<br>
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_4.png "1_4")<br>
+4. Add the Azure CLI software repository.
+> Command:
+> ```bash
+> azureuser@myVM:~$ AZ_REPO=$(lsb_release -cs)
+> azureuser@myVM:~$ echo "deb [arch=amd64] https://packages.microsoft.com/repos/azure-cli/ $AZ_REPO main" |
+>    sudo tee /etc/apt/sources.list.d/azure-cli.list
+> ```
+> Output:<br>
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_5.png "1_5")<br>
