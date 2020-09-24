@@ -89,7 +89,7 @@
 > ```
 > Output:<br>
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_14.png "1_14")<br>
-9. Using SSH to login to Linux VM.
+9. Using SSH to login the Linux VM.
 > Command:<br>
 > ```bash
 > neolin@tw-hslin-207a:~$ ssh azureuser@<PUBLIC_IP_ADDRESS> 
