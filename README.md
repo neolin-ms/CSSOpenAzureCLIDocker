@@ -6,7 +6,7 @@
 
 **Manual install instructions**
 
-1. Using SSh to login Ubuntu Linux.
+1. Using SSH to login Ubuntu Linux.
 > Command:<br>
 > ```bash
 > neolin@tw-hslin-207a:~/CSSOpenWSL2$ ssh [username]@104.214.xxx.xxx
@@ -29,3 +29,12 @@
 > ```
 > Output:<br>
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_3.png "1_3")<br>
+3. Download and install the Microsoft signing key.
+> Command: 
+> ```bash
+> curl -sL https://packages.microsoft.com/keys/microsoft.asc |
+>    gpg --dearmor |
+>    sudo tee /etc/apt/trusted.gpg.d/microsoft.gpg > /dev/null 
+> ```
+> Output:<br>
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_4.png "1_4")<br>
