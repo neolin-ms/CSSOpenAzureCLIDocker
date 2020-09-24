@@ -47,3 +47,15 @@
 > ```
 > Output:<br>
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_5.png "1_5")<br>
+5. Update repository information and install the azure-cli package. 
+> Command1:
+> ```bash
+> azureuser@myVM:~$ sudo apt-get update
+> ```
+> Output:<br>
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_6.png "1_6")<br>
+> Command2:
+> ```bash
+> azureuser@myVM:~$ sudo apt-get install azure-cli
+> Output:<br>
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_7.png "1_7")<br>
