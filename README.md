@@ -82,7 +82,7 @@
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_12.png "1_12")<br>
 > 7.5 You see the your subscription infomation. 
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_13.png "1_13")<br>
-8. Excute a shell script to create a Linux VM.
+8. Excute a shell script to create a Linux VM. Here is a exapmle, [Shell Script](https://github.com/neolin-ms/AzureCLI/blob/master/1Tutorial_Create_and_Manage_Linux_VM.sh).
 > Command:<br>
 > ```bash
 > neolin@tw-hslin-207a:~$ bash 1Create_a_Linux_VM.sh 
