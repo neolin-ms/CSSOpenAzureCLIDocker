@@ -96,3 +96,5 @@
 > ``` 
 > Output:<br>
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_15.png "1_15")<br>
+
+## Lab 2: Install Docker Engine on Debian Linux and run a image
