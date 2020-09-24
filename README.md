@@ -80,3 +80,6 @@
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_11.png "1_11")<br>
 > 7.4 You have signed into the Microsoft Azure. Now close this windows. 
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_12.png "1_12")<br>
+> 7.5 You see the your subscription infomation. 
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_13.png "1_13")<br>
+> 7.5 You see the your subscription infomation. 
