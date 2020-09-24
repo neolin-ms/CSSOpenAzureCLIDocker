@@ -9,7 +9,23 @@
 1. Using SSh to login Ubuntu Linux.
 > Command:<br>
 > ```bash
-> neolin@tw-hslin-207a:~/CSSOpenWSL2$ ssh azureuser@104.214.xxx.xxx
+> neolin@tw-hslin-207a:~/CSSOpenWSL2$ ssh [username]@104.214.xxx.xxx
 > ```
 > Output:<br>
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_1.png "1_1")<br>
+2. Get packages needed for the installation.
+> Command1:<br> 
+> ```bash
+> azureuser@myVM:~$ sudo apt-get update
+> ```
+> Output:<br>
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_2.png "1_2")<br>
+> Command2:<br>
+> ```bash
+> azureuser@myVM:~$ sudo apt-get install ca-certificates curl apt-transport-https lsb-release gnupg
+> ...
+> Do you want to continue? [Y/n] Y
+> ...
+> ```
+> Output:<br>
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_3.png "1_3")<br>
