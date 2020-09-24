@@ -9,6 +9,7 @@
 1. Using SSh to login Ubuntu Linux.
 > Command:<br>
 > ```sh
+> neolin@tw-hslin-207a:~/CSSOpenWSL2$ ssh azureuser@104.214.xxx.xxx
 > ```
 > Output:<br>
-> ![GITGUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/tree/master/AzureCLIImages/1_1.png "1_1")<br>
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_1.png "1_1")<br>
