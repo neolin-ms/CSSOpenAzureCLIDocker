@@ -82,4 +82,17 @@
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_12.png "1_12")<br>
 > 7.5 You see the your subscription infomation. 
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_13.png "1_13")<br>
-> 7.5 You see the your subscription infomation. 
+8. Excute a shell script to create a Linux VM.
+> Command:<br>
+> ```bash
+> neolin@tw-hslin-207a:~$ bash 1Create_a_Linux_VM.sh 
+> ```
+> Output:<br>
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_14.png "1_14")<br>
+9. Using SSH to login to Linux VM.
+> Command:<br>
+> ```bash
+> neolin@tw-hslin-207a:~$ ssh azureuser@<PUBLIC_IP_ADDRESS> 
+> ``` 
+> Output:<br>
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_15.png "1_15")<br>
