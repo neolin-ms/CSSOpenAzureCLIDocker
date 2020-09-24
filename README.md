@@ -30,7 +30,7 @@
 > Output:<br>
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_3.png "1_3")<br>
 3. Download and install the Microsoft signing key.
-> Command: 
+> Command:<br> 
 > ```bash
 > azureuser@myVM:~$ curl -sL https://packages.microsoft.com/keys/microsoft.asc |
 >    gpg --dearmor |
@@ -39,7 +39,7 @@
 > Output:<br>
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_4.png "1_4")<br>
 4. Add the Azure CLI software repository.
-> Command:
+> Command:<br>
 > ```bash
 > azureuser@myVM:~$ AZ_REPO=$(lsb_release -cs)
 > azureuser@myVM:~$ echo "deb [arch=amd64] https://packages.microsoft.com/repos/azure-cli/ $AZ_REPO main" |
@@ -48,29 +48,32 @@
 > Output:<br>
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_5.png "1_5")<br>
 5. Update repository information and install the azure-cli package. 
-> Command1:
+> Command1:<br>
 > ```bash
 > azureuser@myVM:~$ sudo apt-get update
 > ```
 > Output:<br>
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_6.png "1_6")<br>
-> Command2:
+> Command2:<br>
 > ```bash
 > azureuser@myVM:~$ sudo apt-get install azure-cli
 > ```
 > Output:<br>
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_7.png "1_7")<br>
 6. If you successful to install the Azure CLI, you can run command to check version.  
-> Command:
+> Command:<br>
 > ```bash 
 > azureuser@myVM:~$ az --version
 > ```
 > Output:<br>
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_8.png "1_8")<br>
 7. To sign in the Azure, use the az login command.
-> Command:
+> 7.1 Command:<br>
 > ```bash
 > azureuser@myVM:~$ az login
 > ```
 > Output:<br>
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_9.png "1_9")<br>
+> 7.2 Open the web browser, and enter the link [https://microsoft.com/devicelogin](https://microsoft.com/devicelogin). Then enter the code **HWxxxxx**.<br> 
+> Output:<br>
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_10.png "1_10")<br>
