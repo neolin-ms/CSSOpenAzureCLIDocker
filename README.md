@@ -11,4 +11,4 @@
 > ```sh
 > ```
 > Output:<br>
-> ![GITGUB](https://github.com/neolin-ms/CSSOpenWSL2/blob/master/AzureCLIImages/1_1.png "1_1")<br>
+> ![GITGUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/tree/master/AzureCLIImages/1_1.png "1_1")<br>
