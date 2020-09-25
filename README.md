@@ -158,5 +158,5 @@ Prompt: Do you want to continue? [Y/n] Y<br>
 > ```
 > Output:<br>
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_8.png "2_8")<br>
-> Prompt:
+> Prompt:Do you want to continue? [Y/n] Y<br>
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_9.png "2_9")<br>
