@@ -98,3 +98,8 @@
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_15.png "1_15")<br>
 
 ## Lab 2: Install Docker Engine on Debian Linux and run a image
+
+SET UP THE REPOSITORY
+1. Update the `apt` package index and install packages to allow `apt` to use a repository over HTTPS:
+
+ 
