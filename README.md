@@ -160,3 +160,10 @@ Prompt: Do you want to continue? [Y/n] Y<br>
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_8.png "2_8")<br>
 > Prompt:Do you want to continue? [Y/n] Y<br>
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_9.png "2_9")<br>
+2. Verify the installation and Docker version.
+> Command:
+> ```bash 
+> neolin@tw-hslin-207a:~$  docker version
+> ```
+> Output:<br>
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_10.png "2_10")<br>
