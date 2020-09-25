@@ -100,6 +100,30 @@
 ## Lab 2: Install Docker Engine on Debian Linux and run a image
 
 SET UP THE REPOSITORY
-1. Update the `apt` package index and install packages to allow `apt` to use a repository over HTTPS:
-
- 
+1. Update the `apt` package index and install packages to allow `apt` to use a repository over HTTPS:<br>
+> Command1:<br>
+> ```bash
+> neolin@tw-hslin-207a:~$ sudo apt-get update 
+> ```
+> Output:<br>
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/2_1.png "2_1")<br>
+> Command2:<br>
+> ```bash
+> neolin@tw-hslin-207a:~$ sudo apt-get install \
+>    apt-transport-https \
+>    ca-certificates \
+>    curl \
+>    gnupg-agent \
+>    software-properties-common 
+> ```
+> Output:<br>
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/2_2.png "2_2")<br>
+Prompt: Do you want to continue? [Y/n] Y<br>
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/2_3.png "2_3")<br>
+2. Add Docker's official GPG Key.<br>
+> Command1:<br>
+> ```bash
+> neolin@tw-hslin-207a:~$ curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add - 
+> ```
+> Output:<br>
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/2_3.png "2_3")<br>
