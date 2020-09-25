@@ -117,13 +117,20 @@ SET UP THE REPOSITORY
 >    software-properties-common 
 > ```
 > Output:<br>
-> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/2_2.png "2_2")<br>
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_2.png "2_2")<br>
 Prompt: Do you want to continue? [Y/n] Y<br>
-> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/2_3.png "2_3")<br>
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_3.png "2_3")<br>
 2. Add Docker's official GPG Key.<br>
 > Command1:<br>
 > ```bash
 > neolin@tw-hslin-207a:~$ curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add - 
 > ```
 > Output:<br>
-> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/2_3.png "2_3")<br>
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_4.png "2_4")<br>
+> Command2:<br>
+> ```bash
+> neolin@tw-hslin-207a:~$  sudo apt-key fingerprint 0EBFCD88 
+> ```
+> Output:<br>
+> Verify that you now have the key with the fingerprint `9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88`, by searching for the last 8 characters of the fingerprint.<br>
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_5.png "2_5")<br>
