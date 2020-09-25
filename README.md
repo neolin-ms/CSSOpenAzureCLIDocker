@@ -99,7 +99,7 @@
 
 ## Lab 2: Install Docker Engine on Debian Linux and run a image
 
-SET UP THE REPOSITORY
+**SET UP THE REPOSITORY**
 1. Update the `apt` package index and install packages to allow `apt` to use a repository over HTTPS:<br>
 > Command1:<br>
 > ```bash
@@ -134,3 +134,29 @@ Prompt: Do you want to continue? [Y/n] Y<br>
 > Output:<br>
 > Verify that you now have the key with the fingerprint `9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88`, by searching for the last 8 characters of the fingerprint.<br>
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_5.png "2_5")<br>
+3. Use the following command to set up the stable repository.
+> Command:
+> ```bash
+> neolin@tw-hslin-207a:~$ sudo add-apt-repository \
+>   "deb [arch=amd64] https://download.docker.com/linux/debian \
+>   $(lsb_release -cs) \
+>   stable"
+> Output:<br>
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_6.png "2_6")<br>
+
+**INSTALL DOCKER ENGINE**
+1. Update the apt package index, and install the latest version of Docker Engine and containerda.<br>
+> Command1:
+> ```bash
+> neolin@tw-hslin-207a:~$ sudo apt-get update 
+> ```
+> Output:<br>
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_7.png "2_7")<br>
+> Command2:
+> ```bash
+> neolin@tw-hslin-207a:~$ sudo apt-get install docker-ce docker-ce-cli containerd.io
+> ```
+> Output:<br>
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_8.png "2_8")<br>
+> Prompt:
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_9.png "2_9")<br>
