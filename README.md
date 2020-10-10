@@ -133,84 +133,27 @@ neolin@tw-hslin-207a:~$ docker run -it ubuntu bash
 > Output:<br>
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_9.png "2_9")<br>
 10. Check the ubuntu version.
-```bash
-root@d1cf5b9429fd:/# cat /etc/*release
-```
+> Command:<br>
+>```bash
+>root@d1cf5b9429fd:/# cat /etc/*release
+>```
 > Output:<br>
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_10.png "2_10")<br>
-
-
-
-
-**SET UP THE REPOSITORY**
-1. Update the `apt` package index and install packages to allow `apt` to use a repository over HTTPS:<br>
+11. Useful commands for Docker.
 > Command1:<br>
 > ```bash
-> neolin@tw-hslin-207a:~$ sudo apt-get update 
-> ```
+> neolin@tw-hslin207-a:~$ docker image ls --all
+> ````
 > Output:<br>
-> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/2_1.png "2_1")<br>
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_11.png "2_11")<br>
 > Command2:<br>
 > ```bash
-> neolin@tw-hslin-207a:~$ sudo apt-get install \
->    apt-transport-https \
->    ca-certificates \
->    curl \
->    gnupg-agent \
->    software-properties-common 
+> neolin@tw-hslin207-a:~$ docker ps -a
 > ```
 > Output:<br>
-> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_2.png "2_2")<br>
-Prompt: Do you want to continue? [Y/n] Y<br>
-> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_3.png "2_3")<br>
-2. Add Docker's official GPG Key.<br>
-> Command1:<br>
-> ```bash
-> neolin@tw-hslin-207a:~$ curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add - 
-> ```
-> Output:<br>
-> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_4.png "2_4")<br>
-> Command2:<br>
-> ```bash
-> neolin@tw-hslin-207a:~$  sudo apt-key fingerprint 0EBFCD88 
-> ```
-> Output:<br>
-> Verify that you now have the key with the fingerprint `9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88`, by searching for the last 8 characters of the fingerprint.<br>
-> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_5.png "2_5")<br>
-3. Use the following command to set up the stable repository.
-> Command:
-> ```bash
-> neolin@tw-hslin-207a:~$ sudo add-apt-repository \
->   "deb [arch=amd64] https://download.docker.com/linux/debian \
->   $(lsb_release -cs) \
->   stable"
-> Output:<br>
-> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_6.png "2_6")<br>
-
-**INSTALL DOCKER ENGINE**
-1. Update the apt package index, and install the latest version of Docker Engine and containerda.<br>
-> Command1:
-> ```bash
-> neolin@tw-hslin-207a:~$ sudo apt-get update 
-> ```
-> Output:<br>
-> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_7.png "2_7")<br>
-> Command2:
-> ```bash
-> neolin@tw-hslin-207a:~$ sudo apt-get install docker-ce docker-ce-cli containerd.io
-> ```
-> Output:<br>
-> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_8.png "2_8")<br>
-> Prompt:Do you want to continue? [Y/n] Y<br>
-> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_9.png "2_9")<br>
-2. Verify the installation and Docker version.
-> Command:
-> ```bash 
-> neolin@tw-hslin-207a:~$  docker version
-> ```
-> Output:<br>
-> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_10.png "2_10")<br>
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_12.png "2_12")<br>
 
 ## References
 
 1. [Docker Desktop WSL 2 backend](https://docs.docker.com/docker-for-windows/wsl/) 
+2. [Get started with Docker remote containers on WSL 2](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-containers) 
