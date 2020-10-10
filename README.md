@@ -110,7 +110,7 @@
 > Output:<br>
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_17.png "1_17")<br>
 
-## Lab 2: Install Docker Engine on Debian Linux and run a image
+## Lab 2: Install Docker Desktop on Windows 10 and run container on WSL 
 
 ** Install Docker Desktop
 
