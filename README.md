@@ -116,9 +116,30 @@
 7. To confirm that Docker has been installed, open a WSL distribution (e.g. Debian) and display the version and build number by entering. 
 ```bash
 neolin@tw-hslin-207a:~$ docker --version
+Docker version 19.03.13, build 4484c46d9d
 ```
-> Output:
+> Output:<br>
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_7.png "2_7")<br>
+8. Test that your installation works correctly by running a simple built-in Docker image using command. 
+```bash
+neolin@tw-hslin-207a:~$ docker run hello-world
+```
+> Output:<br>
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_8.png "2_8")<br>
+9. Try to run a new container, e.g. Ubnutu. 
+```bash
+neolin@tw-hslin-207a:~$ docker run -it ubuntu bash
+```
+> Output:<br>
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_9.png "2_9")<br>
+10. Check the ubuntu version.
+```bash
+root@d1cf5b9429fd:/# cat /etc/*release
+```
+> Output:<br>
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_10.png "2_10")<br>
+
+
 
 
 **SET UP THE REPOSITORY**
