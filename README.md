@@ -89,13 +89,25 @@
 > ```
 > Output:<br>
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_14.png "1_14")<br>
-9. Using SSH to login the Linux VM.
-> Command:<br>
+9. Check the VM. 
+> ```bash
+> neolin@tw-hslin-207a:~$ az vm list --output table 
+> ```
+> Output:<br>
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_15.png "1_15")<br>
+10. Using SSH to login the Linux VM.
+> Command1:<br>
 > ```bash
 > neolin@tw-hslin-207a:~$ ssh azureuser@<PUBLIC_IP_ADDRESS> 
 > ``` 
 > Output:<br>
-> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_15.png "1_15")<br>
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_16.png "1_16")<br>
+> Command2:<br>
+> ```bash
+> azureuser@myVM:~$ cat /etc/*release
+> ```
+> Output:<br>
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureCLIImages/1_17.png "1_17")<br>
 
 ## Lab 2: Install Docker Engine on Debian Linux and run a image
 
