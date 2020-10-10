@@ -99,6 +99,15 @@
 
 ## Lab 2: Install Docker Engine on Debian Linux and run a image
 
+** Install Docker Desktop
+
+1. Download [Docker Desktop](https://docs.docker.com/docker-for-windows/wsl/#download). Once installed, you need to restart the PC or laptop. Then click **Close and log out**.  
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_1.png "2_1")<br>
+
+2. After reboot the PC or laptop, the Docker will be staring. On the window **Get started with Docker in a few easy steps!**, please click **Skip tutorial**. 
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_2.png "2_2")<br>
+
+
 **SET UP THE REPOSITORY**
 1. Update the `apt` package index and install packages to allow `apt` to use a repository over HTTPS:<br>
 > Command1:<br>
@@ -167,3 +176,7 @@ Prompt: Do you want to continue? [Y/n] Y<br>
 > ```
 > Output:<br>
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_10.png "2_10")<br>
+
+## References
+
+1. [Docker Desktop WSL 2 backend](https://docs.docker.com/docker-for-windows/wsl/) 
