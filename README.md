@@ -103,9 +103,10 @@
 
 1. Download [Docker Desktop](https://docs.docker.com/docker-for-windows/wsl/#download). Once installed, you need to restart the PC or laptop. Then click **Close and log out**.  
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_1.png "2_1")<br>
-
 2. After reboot the PC or laptop, the Docker will be staring. On the window **Get started with Docker in a few easy steps!**, please click **Skip tutorial**. 
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_2.png "2_2")<br>
+3. Check the Docker status. Select the Docker icon from the hidden icons menu of your taskbar.
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_3.png "2_3")<br>
 
 
 **SET UP THE REPOSITORY**
