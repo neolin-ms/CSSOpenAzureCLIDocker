@@ -107,12 +107,19 @@
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_2.png "2_2")<br>
 3. Check the Docker status. Select the Docker icon from the hidden icons menu of your taskbar.
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_3.png "2_3")<br>
-4. Right-click the icon to display the Docker commands menu and select "Settings".
+4. Right-click the icon to display the Docker commands menu and select "**Settings**".
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_4.png "2_4")<br>
-5. Ensure that "Use the WSL 2 based engine" is checked in Settings > General.
+5. Ensure that "Use the WSL 2 based engine" is checked in **Settings** > **General**.
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_5.png "2_5")<br>
-6. Select from your installed WSL 2 distributions which you want to enable Docker integration on by going to: Settings > Resources > WSL Integration. Select the **Debian**, and click **Apply & Restart**.
+6. Select from your installed WSL 2 distributions which you want to enable Docker integration on by going to: **Settings** > **Resources** > **WSL Integration**. Select the **Debian**, and click **Apply & Restart**.
 > ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_6.png "2_6")<br>
+7. To confirm that Docker has been installed, open a WSL distribution (e.g. Debian) and display the version and build number by entering. 
+```bash
+neolin@tw-hslin-207a:~$ docker --version
+```
+> Output:
+> ![GITHUB](https://github.com/neolin-ms/CSSOpenAzureCLIDocker/blob/master/AzureDockerImages/2_7.png "2_7")<br>
+
 
 **SET UP THE REPOSITORY**
 1. Update the `apt` package index and install packages to allow `apt` to use a repository over HTTPS:<br>
