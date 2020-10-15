@@ -1,4 +1,4 @@
-# CSSOpen - Session 3 - Lab 1&2: - AzureCLI, Docker
+# CSSOpen - Session 3 - Lab 1&2: AzureCLI, Docker
 
 - What is Azure CLI? Please refer to [here](https://docs.microsoft.com/en-us/cli/azure/what-is-azure-cli?view=azure-cli-latest).
 - What is Docker? Please refer to [here](https://docs.microsoft.com/en-us/dotnet/architecture/containerized-lifecycle/what-is-docker)
